@@ -4,3 +4,9 @@ D:\My Projects\C# Projects\socket\socket\socket\bin\Debug\socket.exe
 D:\My Projects\C# Projects\socket\socket\socket\bin\Debug\socket.pdb
 D:\My Projects\C# Projects\socket\socket\socket\obj\Debug\socket.exe
 D:\My Projects\C# Projects\socket\socket\socket\obj\Debug\socket.pdb
+D:\My Projects\socket\socket\bin\Debug\socket.exe.config
+D:\My Projects\socket\socket\obj\Debug\socket.exe
+D:\My Projects\socket\socket\obj\Debug\socket.pdb
+D:\My Projects\socket\socket\bin\Debug\socket.exe
+D:\My Projects\socket\socket\bin\Debug\socket.pdb
+D:\My Projects\socket\socket\obj\Debug\socket.csprojResolveAssemblyReference.cache

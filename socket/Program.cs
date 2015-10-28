@@ -10,21 +10,20 @@ namespace socket
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             ConnectToServer();
         }
         public static void ConnectToServer(String val = "JOIN#")
         {
+
             System.Net.Sockets.TcpClient clientSocket = new System.Net.Sockets.TcpClient();
-
-
-
             IPAddress ipAddress = IPAddress.Parse("127.0.0.1");
             IPEndPoint localEndPoint = new IPEndPoint(ipAddress, 6000);
-
             try
             {
+                
                 if (!clientSocket.Connected)
                     //clientSocket.Connect(serverIP, port);
 
@@ -57,8 +56,9 @@ namespace socket
 
                 Console.WriteLine(m.Message);
             }
+            
 
-            Console.ReadKey();
+           Console.ReadKey();
 
 
 
@@ -77,22 +77,27 @@ namespace socket
             TcpListener listener = new TcpListener(localAdd, PORT_NO);
 
             listener.Start();
-
-
             //---incoming client connected---
             TcpClient client = listener.AcceptTcpClient();
-
             //---get the incoming data through a network stream---
             NetworkStream nwStream = client.GetStream();
-            byte[] buffer = new byte[client.ReceiveBufferSize];
 
-            //---read incoming stream---
-            int bytesRead = nwStream.Read(buffer, 0, client.ReceiveBufferSize);
+            while (true)
+            {
+                
 
-            //---convert the data received into a string---
-            string dataReceived = Encoding.ASCII.GetString(buffer, 0, bytesRead);
-            Console.WriteLine("Received : " + dataReceived);
+                
+                byte[] buffer = new byte[client.ReceiveBufferSize];
 
+                //---read incoming stream---
+                int bytesRead = nwStream.Read(buffer, 0, client.ReceiveBufferSize);
+
+                //---convert the data received into a string---
+                string dataReceived = Encoding.ASCII.GetString(buffer, 0, bytesRead);
+                Console.WriteLine("Received : " + dataReceived);
+                Console.WriteLine("Sending back : " + "RIGHT#");
+                ConnectToServer("RIGHT#");
+            }
 
 
             //Read user commands
@@ -109,7 +114,7 @@ namespace socket
             {
 
                 Console.WriteLine("Sending back : " + "DOWN#");
-                ConnectToServer("UP#");
+                ConnectToServer("DOWN#");
             }
 
 
@@ -117,7 +122,7 @@ namespace socket
             {
 
                 Console.WriteLine("Sending back : " + "LEFT#");
-                ConnectToServer("UP#");
+                ConnectToServer("LEFT#");
             }
 
 
@@ -125,14 +130,14 @@ namespace socket
             {
 
                 Console.WriteLine("Sending back : " + "RIGHT#");
-                ConnectToServer("UP#");
+                ConnectToServer("RIGHT#");
             }
 
             if (key.Key == ConsoleKey.Enter)
             {
 
                 Console.WriteLine("Sending back : " + "SHOOT#");
-                ConnectToServer("UP#");
+                ConnectToServer("SHOOT#");
             }
 
 

@@ -1,0 +1,18 @@
+c:\users\sandun\documents\visual studio 2013\Projects\ClientProgram\ClientProgram\bin\Debug\ClientProgram.exe.config
+c:\users\sandun\documents\visual studio 2013\Projects\ClientProgram\ClientProgram\bin\Debug\ClientProgram.exe
+c:\users\sandun\documents\visual studio 2013\Projects\ClientProgram\ClientProgram\bin\Debug\ClientProgram.pdb
+c:\users\sandun\documents\visual studio 2013\Projects\ClientProgram\ClientProgram\obj\Debug\ClientProgram.csprojResolveAssemblyReference.cache
+c:\users\sandun\documents\visual studio 2013\Projects\ClientProgram\ClientProgram\obj\Debug\ClientProgram.Form1.resources
+c:\users\sandun\documents\visual studio 2013\Projects\ClientProgram\ClientProgram\obj\Debug\ClientProgram.Properties.Resources.resources
+c:\users\sandun\documents\visual studio 2013\Projects\ClientProgram\ClientProgram\obj\Debug\ClientProgram.csproj.GenerateResource.Cache
+c:\users\sandun\documents\visual studio 2013\Projects\ClientProgram\ClientProgram\obj\Debug\ClientProgram.exe
+c:\users\sandun\documents\visual studio 2013\Projects\ClientProgram\ClientProgram\obj\Debug\ClientProgram.pdb
+D:\My Projects\socket\ClientProgram\ClientProgram\bin\Debug\ClientProgram.exe.config
+D:\My Projects\socket\ClientProgram\ClientProgram\obj\Debug\ClientProgram.exe
+D:\My Projects\socket\ClientProgram\ClientProgram\obj\Debug\ClientProgram.pdb
+D:\My Projects\socket\ClientProgram\ClientProgram\bin\Debug\ClientProgram.exe
+D:\My Projects\socket\ClientProgram\ClientProgram\bin\Debug\ClientProgram.pdb
+D:\My Projects\socket\ClientProgram\ClientProgram\obj\Debug\ClientProgram.csprojResolveAssemblyReference.cache
+D:\My Projects\socket\ClientProgram\ClientProgram\obj\Debug\ClientProgram.Form1.resources
+D:\My Projects\socket\ClientProgram\ClientProgram\obj\Debug\ClientProgram.Properties.Resources.resources
+D:\My Projects\socket\ClientProgram\ClientProgram\obj\Debug\ClientProgram.csproj.GenerateResource.Cache
